@@ -1,0 +1,21 @@
+{
+  "name": "watsoneudemobotgateway",
+  "version": "0.0.1",
+  "description": "Watson EU Demo Botmaster gateway",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.0.0",
+    "botmaster": "^2.2.3",
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0",
+    "nodemon": "^1.10.2",
+    "paho-mqtt": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Williams",
+  "license": "ISC"
+}
