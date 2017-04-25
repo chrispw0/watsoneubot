@@ -18,7 +18,7 @@ const appEnv = cfenv.getAppEnv();
 const messengerSettings = {
     credentials: {
         verifyToken: 'verify_me',
-        pageToken: 'EAAJTsZAFAyPcBAPPSpM3KejyU9zMxX2KjRZCZA2VXhqaZBIki5NLjyKEHeft5VMjLJKdFVS2RShvh7UBVColYK3LtFyf0wGYx3v4Ro46OZAbMrVZAAK8isnrZAzLrfLZCF5sYyZCR1SQ4249rFcefaxXbmtudlbW0iLNaZB8Ej1EGQ5AZDZD',
+        pageToken: 'EAAJTsZAFAyPcBAKc6t1O0me1jzinQks3xNrujeKdK5ZCZCCIgXaFHMlXSDZC3tZBVbwn2JERU156pAvbQCjf2vs0wPKsFHR6sMZBaARC0XCaMa9g2q8h3wMNFzSZCfrmYzbZAlPLBq9PpQlvEX3AlZCoeDx1OqHavkSB8fqpbiZAiXVAZDZD',
         fbAppSecret: '1a0078588b4772807f34cc83ceca8514',
     },
     webhookEndpoint: '/webhook1234' // botmaster will mount this webhook on https://Your_Domain_Name/messenger/webhook1234

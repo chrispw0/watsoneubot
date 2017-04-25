@@ -391,7 +391,7 @@ var ConversationPanel = (function() {
                  'children': [{
                    // <p>{messageText}</p>
                    'tagName': (isUser ? 'pu' : 'p'),
-                   'text': currentText.replace('[','<b>').replace(']','</b>')
+                   'text': currentText.replace('[History]: ',' ').replace('[','<b>').replace(']','</b>')
                  }]
                }]
              }]
